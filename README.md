@@ -25,3 +25,10 @@ https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data
 - Pharmacy Manager: wants summaries (monthly totals, top categories, peak days).
 - Inventory/Operations Staff: wants demand patterns to help plan ordering.
 - Data Analyst/Student User: runs SQL queries for analysis and reporting.
+
+
+
+# Product Description
+_This project implements a Pharmaceutical Sales Monitoring System that tracks drug category sales volumes over time. The system allows analysis of sales patterns across categories and time periods and supports regulatory oversight reporting._
+
+
