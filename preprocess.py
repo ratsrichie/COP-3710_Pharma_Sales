@@ -3,13 +3,6 @@ preprocess.py
 
 Reads the raw salesdaily.csv file and creates cleaned CSV files inside ./data
 for the tables used by the project schema.
-
-Generated files:
-- data/manufacturers.csv
-- data/pharmacies.csv
-- data/products.csv
-- data/calendar_day.csv
-- data/sales.csv
 """
 
 from __future__ import annotations
