@@ -1,0 +1,161 @@
+product_id,category_code,product_name,category_name,manufacturer_id,dosage_form,unit_price
+1,M01AB,M01AB_Product_01,Acetic acid derivatives and related substances,1,Tablet,16.09
+2,M01AB,M01AB_Product_02,Acetic acid derivatives and related substances,2,Capsule,16.46
+3,M01AB,M01AB_Product_03,Acetic acid derivatives and related substances,3,Syrup,16.83
+4,M01AB,M01AB_Product_04,Acetic acid derivatives and related substances,4,Injection,17.2
+5,M01AB,M01AB_Product_05,Acetic acid derivatives and related substances,5,Inhaler,17.57
+6,M01AB,M01AB_Product_06,Acetic acid derivatives and related substances,6,Cream,17.95
+7,M01AB,M01AB_Product_07,Acetic acid derivatives and related substances,7,Tablet,18.32
+8,M01AB,M01AB_Product_08,Acetic acid derivatives and related substances,8,Capsule,15.72
+9,M01AB,M01AB_Product_09,Acetic acid derivatives and related substances,9,Syrup,16.09
+10,M01AB,M01AB_Product_10,Acetic acid derivatives and related substances,10,Injection,16.46
+11,M01AB,M01AB_Product_11,Acetic acid derivatives and related substances,11,Inhaler,16.83
+12,M01AB,M01AB_Product_12,Acetic acid derivatives and related substances,12,Cream,17.2
+13,M01AB,M01AB_Product_13,Acetic acid derivatives and related substances,13,Tablet,17.57
+14,M01AB,M01AB_Product_14,Acetic acid derivatives and related substances,14,Capsule,17.95
+15,M01AB,M01AB_Product_15,Acetic acid derivatives and related substances,15,Syrup,18.32
+16,M01AB,M01AB_Product_16,Acetic acid derivatives and related substances,16,Injection,15.72
+17,M01AB,M01AB_Product_17,Acetic acid derivatives and related substances,17,Inhaler,16.09
+18,M01AB,M01AB_Product_18,Acetic acid derivatives and related substances,18,Cream,16.46
+19,M01AB,M01AB_Product_19,Acetic acid derivatives and related substances,19,Tablet,16.83
+20,M01AB,M01AB_Product_20,Acetic acid derivatives and related substances,20,Capsule,17.2
+21,M01AE,M01AE_Product_01,Propionic acid derivatives,21,Syrup,14.57
+22,M01AE,M01AE_Product_02,Propionic acid derivatives,22,Injection,14.91
+23,M01AE,M01AE_Product_03,Propionic acid derivatives,23,Inhaler,15.24
+24,M01AE,M01AE_Product_04,Propionic acid derivatives,24,Cream,15.58
+25,M01AE,M01AE_Product_05,Propionic acid derivatives,25,Tablet,15.91
+26,M01AE,M01AE_Product_06,Propionic acid derivatives,26,Capsule,16.25
+27,M01AE,M01AE_Product_07,Propionic acid derivatives,27,Syrup,16.58
+28,M01AE,M01AE_Product_08,Propionic acid derivatives,28,Injection,14.24
+29,M01AE,M01AE_Product_09,Propionic acid derivatives,29,Inhaler,14.57
+30,M01AE,M01AE_Product_10,Propionic acid derivatives,30,Cream,14.91
+31,M01AE,M01AE_Product_11,Propionic acid derivatives,31,Tablet,15.24
+32,M01AE,M01AE_Product_12,Propionic acid derivatives,32,Capsule,15.58
+33,M01AE,M01AE_Product_13,Propionic acid derivatives,33,Syrup,15.91
+34,M01AE,M01AE_Product_14,Propionic acid derivatives,34,Injection,16.25
+35,M01AE,M01AE_Product_15,Propionic acid derivatives,35,Inhaler,16.58
+36,M01AE,M01AE_Product_16,Propionic acid derivatives,36,Cream,14.24
+37,M01AE,M01AE_Product_17,Propionic acid derivatives,37,Tablet,14.57
+38,M01AE,M01AE_Product_18,Propionic acid derivatives,38,Capsule,14.91
+39,M01AE,M01AE_Product_19,Propionic acid derivatives,39,Syrup,15.24
+40,M01AE,M01AE_Product_20,Propionic acid derivatives,40,Injection,15.58
+41,N02BA,N02BA_Product_01,Salicylic acid and derivatives,41,Inhaler,8.27
+42,N02BA,N02BA_Product_02,Salicylic acid and derivatives,42,Cream,8.46
+43,N02BA,N02BA_Product_03,Salicylic acid and derivatives,43,Tablet,8.64
+44,N02BA,N02BA_Product_04,Salicylic acid and derivatives,44,Capsule,8.83
+45,N02BA,N02BA_Product_05,Salicylic acid and derivatives,45,Syrup,9.03
+46,N02BA,N02BA_Product_06,Salicylic acid and derivatives,46,Injection,9.21
+47,N02BA,N02BA_Product_07,Salicylic acid and derivatives,47,Inhaler,9.4
+48,N02BA,N02BA_Product_08,Salicylic acid and derivatives,48,Cream,8.07
+49,N02BA,N02BA_Product_09,Salicylic acid and derivatives,49,Tablet,8.27
+50,N02BA,N02BA_Product_10,Salicylic acid and derivatives,50,Capsule,8.46
+51,N02BA,N02BA_Product_11,Salicylic acid and derivatives,51,Syrup,8.64
+52,N02BA,N02BA_Product_12,Salicylic acid and derivatives,52,Injection,8.83
+53,N02BA,N02BA_Product_13,Salicylic acid and derivatives,53,Inhaler,9.03
+54,N02BA,N02BA_Product_14,Salicylic acid and derivatives,54,Cream,9.21
+55,N02BA,N02BA_Product_15,Salicylic acid and derivatives,55,Tablet,9.4
+56,N02BA,N02BA_Product_16,Salicylic acid and derivatives,56,Capsule,8.07
+57,N02BA,N02BA_Product_17,Salicylic acid and derivatives,57,Syrup,8.27
+58,N02BA,N02BA_Product_18,Salicylic acid and derivatives,58,Injection,8.46
+59,N02BA,N02BA_Product_19,Salicylic acid and derivatives,59,Inhaler,8.64
+60,N02BA,N02BA_Product_20,Salicylic acid and derivatives,60,Cream,8.83
+61,N02BE,N02BE_Product_01,Pyrazolones and anilides,61,Tablet,9.79
+62,N02BE,N02BE_Product_02,Pyrazolones and anilides,62,Capsule,10.01
+63,N02BE,N02BE_Product_03,Pyrazolones and anilides,63,Syrup,10.24
+64,N02BE,N02BE_Product_04,Pyrazolones and anilides,64,Injection,10.46
+65,N02BE,N02BE_Product_05,Pyrazolones and anilides,65,Inhaler,10.69
+66,N02BE,N02BE_Product_06,Pyrazolones and anilides,66,Cream,10.91
+67,N02BE,N02BE_Product_07,Pyrazolones and anilides,67,Tablet,11.14
+68,N02BE,N02BE_Product_08,Pyrazolones and anilides,68,Capsule,9.56
+69,N02BE,N02BE_Product_09,Pyrazolones and anilides,69,Syrup,9.79
+70,N02BE,N02BE_Product_10,Pyrazolones and anilides,70,Injection,10.01
+71,N02BE,N02BE_Product_11,Pyrazolones and anilides,71,Inhaler,10.24
+72,N02BE,N02BE_Product_12,Pyrazolones and anilides,72,Cream,10.46
+73,N02BE,N02BE_Product_13,Pyrazolones and anilides,73,Tablet,10.69
+74,N02BE,N02BE_Product_14,Pyrazolones and anilides,74,Capsule,10.91
+75,N02BE,N02BE_Product_15,Pyrazolones and anilides,75,Syrup,11.14
+76,N02BE,N02BE_Product_16,Pyrazolones and anilides,76,Injection,9.56
+77,N02BE,N02BE_Product_17,Pyrazolones and anilides,77,Inhaler,9.79
+78,N02BE,N02BE_Product_18,Pyrazolones and anilides,78,Cream,10.01
+79,N02BE,N02BE_Product_19,Pyrazolones and anilides,79,Tablet,10.24
+80,N02BE,N02BE_Product_20,Pyrazolones and anilides,80,Capsule,10.46
+81,N05B,N05B_Product_01,Anxiolytics,81,Syrup,19.49
+82,N05B,N05B_Product_02,Anxiolytics,82,Injection,19.94
+83,N05B,N05B_Product_03,Anxiolytics,83,Inhaler,20.38
+84,N05B,N05B_Product_04,Anxiolytics,84,Cream,20.83
+85,N05B,N05B_Product_05,Anxiolytics,85,Tablet,21.28
+86,N05B,N05B_Product_06,Anxiolytics,86,Capsule,21.73
+87,N05B,N05B_Product_07,Anxiolytics,87,Syrup,22.18
+88,N05B,N05B_Product_08,Anxiolytics,88,Injection,19.04
+89,N05B,N05B_Product_09,Anxiolytics,89,Inhaler,19.49
+90,N05B,N05B_Product_10,Anxiolytics,90,Cream,19.94
+91,N05B,N05B_Product_11,Anxiolytics,91,Tablet,20.38
+92,N05B,N05B_Product_12,Anxiolytics,92,Capsule,20.83
+93,N05B,N05B_Product_13,Anxiolytics,93,Syrup,21.28
+94,N05B,N05B_Product_14,Anxiolytics,94,Injection,21.73
+95,N05B,N05B_Product_15,Anxiolytics,95,Inhaler,22.18
+96,N05B,N05B_Product_16,Anxiolytics,96,Cream,19.04
+97,N05B,N05B_Product_17,Anxiolytics,97,Tablet,19.49
+98,N05B,N05B_Product_18,Anxiolytics,98,Capsule,19.94
+99,N05B,N05B_Product_19,Anxiolytics,99,Syrup,20.38
+100,N05B,N05B_Product_20,Anxiolytics,100,Injection,20.83
+101,N05C,N05C_Product_01,Hypnotics and sedatives,1,Inhaler,20.97
+102,N05C,N05C_Product_02,Hypnotics and sedatives,2,Cream,21.45
+103,N05C,N05C_Product_03,Hypnotics and sedatives,3,Tablet,21.93
+104,N05C,N05C_Product_04,Hypnotics and sedatives,4,Capsule,22.41
+105,N05C,N05C_Product_05,Hypnotics and sedatives,5,Syrup,22.89
+106,N05C,N05C_Product_06,Hypnotics and sedatives,6,Injection,23.38
+107,N05C,N05C_Product_07,Hypnotics and sedatives,7,Inhaler,23.86
+108,N05C,N05C_Product_08,Hypnotics and sedatives,8,Cream,20.48
+109,N05C,N05C_Product_09,Hypnotics and sedatives,9,Tablet,20.97
+110,N05C,N05C_Product_10,Hypnotics and sedatives,10,Capsule,21.45
+111,N05C,N05C_Product_11,Hypnotics and sedatives,11,Syrup,21.93
+112,N05C,N05C_Product_12,Hypnotics and sedatives,12,Injection,22.41
+113,N05C,N05C_Product_13,Hypnotics and sedatives,13,Inhaler,22.89
+114,N05C,N05C_Product_14,Hypnotics and sedatives,14,Cream,23.38
+115,N05C,N05C_Product_15,Hypnotics and sedatives,15,Tablet,23.86
+116,N05C,N05C_Product_16,Hypnotics and sedatives,16,Capsule,20.48
+117,N05C,N05C_Product_17,Hypnotics and sedatives,17,Syrup,20.97
+118,N05C,N05C_Product_18,Hypnotics and sedatives,18,Injection,21.45
+119,N05C,N05C_Product_19,Hypnotics and sedatives,19,Inhaler,21.93
+120,N05C,N05C_Product_20,Hypnotics and sedatives,20,Cream,22.41
+121,R03,R03_Product_01,Drugs for obstructive airway diseases,21,Tablet,26.09
+122,R03,R03_Product_02,Drugs for obstructive airway diseases,22,Capsule,26.69
+123,R03,R03_Product_03,Drugs for obstructive airway diseases,23,Syrup,27.29
+124,R03,R03_Product_04,Drugs for obstructive airway diseases,24,Injection,27.89
+125,R03,R03_Product_05,Drugs for obstructive airway diseases,25,Inhaler,28.49
+126,R03,R03_Product_06,Drugs for obstructive airway diseases,26,Cream,29.09
+127,R03,R03_Product_07,Drugs for obstructive airway diseases,27,Tablet,29.69
+128,R03,R03_Product_08,Drugs for obstructive airway diseases,28,Capsule,25.49
+129,R03,R03_Product_09,Drugs for obstructive airway diseases,29,Syrup,26.09
+130,R03,R03_Product_10,Drugs for obstructive airway diseases,30,Injection,26.69
+131,R03,R03_Product_11,Drugs for obstructive airway diseases,31,Inhaler,27.29
+132,R03,R03_Product_12,Drugs for obstructive airway diseases,32,Cream,27.89
+133,R03,R03_Product_13,Drugs for obstructive airway diseases,33,Tablet,28.49
+134,R03,R03_Product_14,Drugs for obstructive airway diseases,34,Capsule,29.09
+135,R03,R03_Product_15,Drugs for obstructive airway diseases,35,Syrup,29.69
+136,R03,R03_Product_16,Drugs for obstructive airway diseases,36,Injection,25.49
+137,R03,R03_Product_17,Drugs for obstructive airway diseases,37,Inhaler,26.09
+138,R03,R03_Product_18,Drugs for obstructive airway diseases,38,Cream,26.69
+139,R03,R03_Product_19,Drugs for obstructive airway diseases,39,Tablet,27.29
+140,R03,R03_Product_20,Drugs for obstructive airway diseases,40,Capsule,27.89
+141,R06,R06_Product_01,Systemic antihistamines,41,Syrup,12.88
+142,R06,R06_Product_02,Systemic antihistamines,42,Injection,13.17
+143,R06,R06_Product_03,Systemic antihistamines,43,Inhaler,13.47
+144,R06,R06_Product_04,Systemic antihistamines,44,Cream,13.76
+145,R06,R06_Product_05,Systemic antihistamines,45,Tablet,14.06
+146,R06,R06_Product_06,Systemic antihistamines,46,Capsule,14.36
+147,R06,R06_Product_07,Systemic antihistamines,47,Syrup,14.65
+148,R06,R06_Product_08,Systemic antihistamines,48,Injection,12.58
+149,R06,R06_Product_09,Systemic antihistamines,49,Inhaler,12.88
+150,R06,R06_Product_10,Systemic antihistamines,50,Cream,13.17
+151,R06,R06_Product_11,Systemic antihistamines,51,Tablet,13.47
+152,R06,R06_Product_12,Systemic antihistamines,52,Capsule,13.76
+153,R06,R06_Product_13,Systemic antihistamines,53,Syrup,14.06
+154,R06,R06_Product_14,Systemic antihistamines,54,Injection,14.36
+155,R06,R06_Product_15,Systemic antihistamines,55,Inhaler,14.65
+156,R06,R06_Product_16,Systemic antihistamines,56,Cream,12.58
+157,R06,R06_Product_17,Systemic antihistamines,57,Tablet,12.88
+158,R06,R06_Product_18,Systemic antihistamines,58,Capsule,13.17
+159,R06,R06_Product_19,Systemic antihistamines,59,Syrup,13.47
+160,R06,R06_Product_20,Systemic antihistamines,60,Injection,13.76

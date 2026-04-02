@@ -1,0 +1,121 @@
+pharmacy_id,pharmacy_name,city,state_code,open_hour,close_hour
+1,CommunityPharm_001,Orlando,FL,9,19
+2,CommunityPharm_002,Tampa,FL,10,20
+3,CommunityPharm_003,Miami,FL,11,21
+4,CommunityPharm_004,Jacksonville,FL,8,18
+5,CommunityPharm_005,Lakeland,FL,9,19
+6,CommunityPharm_006,Brandon,FL,10,20
+7,CommunityPharm_007,Kissimmee,FL,11,21
+8,CommunityPharm_008,St. Petersburg,FL,8,18
+9,CommunityPharm_009,Tallahassee,FL,9,19
+10,CommunityPharm_010,Gainesville,FL,10,20
+11,CommunityPharm_011,Orlando,FL,11,21
+12,CommunityPharm_012,Tampa,FL,8,18
+13,CommunityPharm_013,Miami,FL,9,19
+14,CommunityPharm_014,Jacksonville,FL,10,20
+15,CommunityPharm_015,Lakeland,FL,11,21
+16,CommunityPharm_016,Brandon,FL,8,18
+17,CommunityPharm_017,Kissimmee,FL,9,19
+18,CommunityPharm_018,St. Petersburg,FL,10,20
+19,CommunityPharm_019,Tallahassee,FL,11,21
+20,CommunityPharm_020,Gainesville,FL,8,18
+21,CommunityPharm_021,Orlando,FL,9,19
+22,CommunityPharm_022,Tampa,FL,10,20
+23,CommunityPharm_023,Miami,FL,11,21
+24,CommunityPharm_024,Jacksonville,FL,8,18
+25,CommunityPharm_025,Lakeland,FL,9,19
+26,CommunityPharm_026,Brandon,FL,10,20
+27,CommunityPharm_027,Kissimmee,FL,11,21
+28,CommunityPharm_028,St. Petersburg,FL,8,18
+29,CommunityPharm_029,Tallahassee,FL,9,19
+30,CommunityPharm_030,Gainesville,FL,10,20
+31,CommunityPharm_031,Orlando,FL,11,21
+32,CommunityPharm_032,Tampa,FL,8,18
+33,CommunityPharm_033,Miami,FL,9,19
+34,CommunityPharm_034,Jacksonville,FL,10,20
+35,CommunityPharm_035,Lakeland,FL,11,21
+36,CommunityPharm_036,Brandon,FL,8,18
+37,CommunityPharm_037,Kissimmee,FL,9,19
+38,CommunityPharm_038,St. Petersburg,FL,10,20
+39,CommunityPharm_039,Tallahassee,FL,11,21
+40,CommunityPharm_040,Gainesville,FL,8,18
+41,CommunityPharm_041,Orlando,FL,9,19
+42,CommunityPharm_042,Tampa,FL,10,20
+43,CommunityPharm_043,Miami,FL,11,21
+44,CommunityPharm_044,Jacksonville,FL,8,18
+45,CommunityPharm_045,Lakeland,FL,9,19
+46,CommunityPharm_046,Brandon,FL,10,20
+47,CommunityPharm_047,Kissimmee,FL,11,21
+48,CommunityPharm_048,St. Petersburg,FL,8,18
+49,CommunityPharm_049,Tallahassee,FL,9,19
+50,CommunityPharm_050,Gainesville,FL,10,20
+51,CommunityPharm_051,Orlando,FL,11,21
+52,CommunityPharm_052,Tampa,FL,8,18
+53,CommunityPharm_053,Miami,FL,9,19
+54,CommunityPharm_054,Jacksonville,FL,10,20
+55,CommunityPharm_055,Lakeland,FL,11,21
+56,CommunityPharm_056,Brandon,FL,8,18
+57,CommunityPharm_057,Kissimmee,FL,9,19
+58,CommunityPharm_058,St. Petersburg,FL,10,20
+59,CommunityPharm_059,Tallahassee,FL,11,21
+60,CommunityPharm_060,Gainesville,FL,8,18
+61,CommunityPharm_061,Orlando,FL,9,19
+62,CommunityPharm_062,Tampa,FL,10,20
+63,CommunityPharm_063,Miami,FL,11,21
+64,CommunityPharm_064,Jacksonville,FL,8,18
+65,CommunityPharm_065,Lakeland,FL,9,19
+66,CommunityPharm_066,Brandon,FL,10,20
+67,CommunityPharm_067,Kissimmee,FL,11,21
+68,CommunityPharm_068,St. Petersburg,FL,8,18
+69,CommunityPharm_069,Tallahassee,FL,9,19
+70,CommunityPharm_070,Gainesville,FL,10,20
+71,CommunityPharm_071,Orlando,FL,11,21
+72,CommunityPharm_072,Tampa,FL,8,18
+73,CommunityPharm_073,Miami,FL,9,19
+74,CommunityPharm_074,Jacksonville,FL,10,20
+75,CommunityPharm_075,Lakeland,FL,11,21
+76,CommunityPharm_076,Brandon,FL,8,18
+77,CommunityPharm_077,Kissimmee,FL,9,19
+78,CommunityPharm_078,St. Petersburg,FL,10,20
+79,CommunityPharm_079,Tallahassee,FL,11,21
+80,CommunityPharm_080,Gainesville,FL,8,18
+81,CommunityPharm_081,Orlando,FL,9,19
+82,CommunityPharm_082,Tampa,FL,10,20
+83,CommunityPharm_083,Miami,FL,11,21
+84,CommunityPharm_084,Jacksonville,FL,8,18
+85,CommunityPharm_085,Lakeland,FL,9,19
+86,CommunityPharm_086,Brandon,FL,10,20
+87,CommunityPharm_087,Kissimmee,FL,11,21
+88,CommunityPharm_088,St. Petersburg,FL,8,18
+89,CommunityPharm_089,Tallahassee,FL,9,19
+90,CommunityPharm_090,Gainesville,FL,10,20
+91,CommunityPharm_091,Orlando,FL,11,21
+92,CommunityPharm_092,Tampa,FL,8,18
+93,CommunityPharm_093,Miami,FL,9,19
+94,CommunityPharm_094,Jacksonville,FL,10,20
+95,CommunityPharm_095,Lakeland,FL,11,21
+96,CommunityPharm_096,Brandon,FL,8,18
+97,CommunityPharm_097,Kissimmee,FL,9,19
+98,CommunityPharm_098,St. Petersburg,FL,10,20
+99,CommunityPharm_099,Tallahassee,FL,11,21
+100,CommunityPharm_100,Gainesville,FL,8,18
+101,CommunityPharm_101,Orlando,FL,9,19
+102,CommunityPharm_102,Tampa,FL,10,20
+103,CommunityPharm_103,Miami,FL,11,21
+104,CommunityPharm_104,Jacksonville,FL,8,18
+105,CommunityPharm_105,Lakeland,FL,9,19
+106,CommunityPharm_106,Brandon,FL,10,20
+107,CommunityPharm_107,Kissimmee,FL,11,21
+108,CommunityPharm_108,St. Petersburg,FL,8,18
+109,CommunityPharm_109,Tallahassee,FL,9,19
+110,CommunityPharm_110,Gainesville,FL,10,20
+111,CommunityPharm_111,Orlando,FL,11,21
+112,CommunityPharm_112,Tampa,FL,8,18
+113,CommunityPharm_113,Miami,FL,9,19
+114,CommunityPharm_114,Jacksonville,FL,10,20
+115,CommunityPharm_115,Lakeland,FL,11,21
+116,CommunityPharm_116,Brandon,FL,8,18
+117,CommunityPharm_117,Kissimmee,FL,9,19
+118,CommunityPharm_118,St. Petersburg,FL,10,20
+119,CommunityPharm_119,Tallahassee,FL,11,21
+120,CommunityPharm_120,Gainesville,FL,8,18
