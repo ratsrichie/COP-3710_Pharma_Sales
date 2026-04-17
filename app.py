@@ -73,7 +73,7 @@ def get_connection():
         lib_dir = r"C:\path\to\your\instantclient_19_8"
         
         # Initialize thick mode
-        oracledb.init_oracle_client(lib_dir=lib_dir) [cite: 41]
+        oracledb.init_oracle_client(lib_dir=lib_dir)
     except Exception as e:
         print(f"Thick mode initialization failed: {e}")
         # If it's already initialized or path is in environment, this might error; 
