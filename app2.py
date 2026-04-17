@@ -1,145 +1,62 @@
 import oracledb
+import os
 
-# --- DATABASE CONNECTION ---
-conn = oracledb.connect(
-    user="YOUR_USERNAME",
-    password="YOUR_PASSWORD",
-    dsn="localhost/XEPDB1"  # adjust if needed
-)
+def get_connection():
+    # Credentials from your teammate's load_db.py
+    user = os.getenv("DB_USER", "RTOMS9124_SCHEMA_MXWBQ")
+    password = os.getenv("DB_PASS", "QI24VPH4VZ!3QNGMrSD75V4QDBC3VT")
+    dsn = os.getenv("DB_DSN", "db.freesql.com:1521/23ai_34ui2")
+    return oracledb.connect(user=user, password=password, dsn=dsn)
 
-cursor = conn.cursor()
+def main():
+    try:
+        conn = get_connection()
+        cursor = conn.cursor()
+        
+        while True:
+            print("\n--- Pharma Sales Management UI ---")
+            print("1. Total Sales by Pharmacy (JOIN)")
+            print("2. Product & Manufacturer Catalog (JOIN)")
+            print("3. Monthly Sales Volume (JOIN)")
+            print("4. Search Products by Price")
+            print("5. Lookup Pharmacy Hours")
+            print("6. Exit")
+            
+            choice = input("\nSelect a feature (1-6): ")
 
+            if choice == '1':
+                cursor.execute("""SELECT ph.pharmacy_name, SUM(s.sales_amount) 
+                                  FROM sales s JOIN pharmacies ph ON s.pharmacy_id = ph.pharmacy_id 
+                                  GROUP BY ph.pharmacy_name""")
+            elif choice == '2':
+                cursor.execute("""SELECT p.product_name, m.manufacturer_name, p.unit_price 
+                                  FROM products p JOIN manufacturers m ON p.manufacturer_id = m.manufacturer_id""")
+            elif choice == '3':
+                cursor.execute("""SELECT c.year_num, c.month_num, SUM(s.volume_sold) 
+                                  FROM sales s JOIN calendar_day c ON s.day_id = c.day_id 
+                                  GROUP BY c.year_num, c.month_num ORDER BY 1, 2""")
+            elif choice == '4':
+                price = input("Enter minimum unit price: ")
+                cursor.execute("SELECT product_name, unit_price FROM products WHERE unit_price >= :1", [price])
+            elif choice == '5':
+                name = input("Enter pharmacy name: ")
+                cursor.execute("SELECT pharmacy_name, open_hour, close_hour FROM pharmacies WHERE pharmacy_name LIKE :1", [f"%{name}%"])
+            elif choice == '6':
+                break
+            else:
+                print("Invalid choice.")
+                continue
 
-def menu():
-    print("\n====== Pharma Sales System ======")
-    print("1. Total Sales by Pharmacy")
-    print("2. Sales by Product")
-    print("3. Sales by Manufacturer")
-    print("4. Sales in Date Range")
-    print("5. Add New Sale")
-    print("6. Exit")
+            results = cursor.fetchall()
+            print("\n--- Results ---")
+            for row in results:
+                print(row)
 
+    except Exception as e:
+        print(f"Error: {e}")
+    finally:
+        if 'conn' in locals():
+            conn.close()
 
-while True:
-    menu()
-    choice = input("Enter choice: ")
-
-    # -----------------------------------
-    # Feature 1: Sales by Pharmacy (JOIN)
-    # -----------------------------------
-    if choice == "1":
-        print("\n--- Sales by Pharmacy ---")
-        query = """
-        SELECT p.pharmacy_name, SUM(s.sales_amount)
-        FROM sales s
-        JOIN pharmacies p ON s.pharmacy_id = p.pharmacy_id
-        GROUP BY p.pharmacy_name
-        """
-        cursor.execute(query)
-
-        for row in cursor:
-            print(f"Pharmacy: {row[0]} | Total Sales: ${row[1]:.2f}")
-
-
-    # -----------------------------------
-    # Feature 2: Sales by Product (JOIN)
-    # -----------------------------------
-    elif choice == "2":
-        print("\n--- Sales by Product ---")
-        query = """
-        SELECT pr.product_name, SUM(s.sales_amount)
-        FROM sales s
-        JOIN products pr ON s.product_id = pr.product_id
-        GROUP BY pr.product_name
-        ORDER BY SUM(s.sales_amount) DESC
-        """
-        cursor.execute(query)
-
-        for row in cursor:
-            print(f"Product: {row[0]} | Total Sales: ${row[1]:.2f}")
-
-
-    # -----------------------------------
-    # Feature 3: Sales by Manufacturer (JOIN)
-    # -----------------------------------
-    elif choice == "3":
-        print("\n--- Sales by Manufacturer ---")
-        query = """
-        SELECT m.manufacturer_name, SUM(s.sales_amount)
-        FROM sales s
-        JOIN products pr ON s.product_id = pr.product_id
-        JOIN manufacturers m ON pr.manufacturer_id = m.manufacturer_id
-        GROUP BY m.manufacturer_name
-        ORDER BY SUM(s.sales_amount) DESC
-        """
-        cursor.execute(query)
-
-        for row in cursor:
-            print(f"Manufacturer: {row[0]} | Total Sales: ${row[1]:.2f}")
-
-
-    # -----------------------------------
-    # Feature 4: Sales by Date Range (JOIN)
-    # -----------------------------------
-    elif choice == "4":
-        print("\n--- Sales by Date Range ---")
-        start = input("Enter start date (YYYY-MM-DD): ")
-        end = input("Enter end date (YYYY-MM-DD): ")
-
-        query = """
-        SELECT c.date_value, SUM(s.sales_amount)
-        FROM sales s
-        JOIN calendar_day c ON s.day_id = c.day_id
-        WHERE c.date_value BETWEEN TO_DATE(:1, 'YYYY-MM-DD') 
-                              AND TO_DATE(:2, 'YYYY-MM-DD')
-        GROUP BY c.date_value
-        ORDER BY c.date_value
-        """
-        cursor.execute(query, [start, end])
-
-        for row in cursor:
-            print(f"Date: {row[0]} | Total Sales: ${row[1]:.2f}")
-
-
-    # -----------------------------------
-    # Feature 5: Add New Sale
-    # -----------------------------------
-    elif choice == "5":
-        print("\n--- Add New Sale ---")
-
-        try:
-            sale_id = int(input("Sale ID: "))
-            day_id = int(input("Day ID: "))
-            pharmacy_id = int(input("Pharmacy ID: "))
-            product_id = int(input("Product ID: "))
-            volume = float(input("Volume Sold: "))
-            amount = float(input("Sales Amount: "))
-
-            query = """
-            INSERT INTO sales 
-            (sale_id, day_id, pharmacy_id, product_id, volume_sold, sales_amount)
-            VALUES (:1, :2, :3, :4, :5, :6)
-            """
-
-            cursor.execute(query, [sale_id, day_id, pharmacy_id, product_id, volume, amount])
-            conn.commit()
-
-            print("✅ Sale added successfully!")
-
-        except Exception as e:
-            print("❌ Error:", e)
-
-
-    # -----------------------------------
-    # Exit
-    # -----------------------------------
-    elif choice == "6":
-        print("Exiting...")
-        break
-
-    else:
-        print("Invalid option. Try again.")
-
-# Close connection
-cursor.close()
-conn.close()
+if __name__ == "__main__":
+    main()
